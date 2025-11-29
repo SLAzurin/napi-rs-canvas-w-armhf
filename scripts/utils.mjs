@@ -47,6 +47,9 @@ export function libPath(lib, hostPlatform, triple, tag = TAG) {
       case 'armv7-unknown-linux-gnueabihf':
         platformName = `lib${lib}-linux-armv7-gnueabihf.a`
         break
+      case 'armv7-unknown-linux-musleabihf':
+        platformName = `lib${lib}-linux-armv7-musleabihf.a`
+        break
       case 'x86_64-unknown-linux-musl':
         platformName = `lib${lib}-linux-x64-musl.a`
         break

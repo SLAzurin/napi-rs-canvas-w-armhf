@@ -15,3 +15,6 @@ rustflags = ["-C", "target-cpu=cortex-a7", "-C", "link-args=-Wl,-z,nodelete"]
 
 [target.aarch64-unknown-linux-musl]
 rustflags = ["-C", "target-cpu=cortex-a57"]
+
+[target.armv7-unknown-linux-musleabihf]
+rustflags = ["-C", "target-cpu=cortex-a7"]
